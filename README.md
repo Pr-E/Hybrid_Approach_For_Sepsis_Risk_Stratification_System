@@ -77,7 +77,7 @@ To use this project, follow the steps below:
 3. **Test the Model:**
 
    You can test the model on new patient data by following the steps outlined in the notebook. Simply replace the sample data with your dataset and run the cells to see the model's predictions.
-   #### NOTE: The trained Random Forest model was used to test the new patients entry
+   #### NOTE: The trained Random Forest model was used to test the new patients data
 
 ## Results
 
@@ -87,6 +87,9 @@ The models demonstrated high accuracy and reliability in stratifying sepsis risk
 
 Contributions are welcome! If you have any ideas or suggestions to improve this project, feel free to fork the repository and submit a pull request.
 
-## Acknowledgements
+## Limitations
 
-This project was inspired by the need for improved sepsis risk stratification in clinical settings, aiming to provide timely and personalised care for patients. A big thank you to the open-source community, especially for the dataset provided on Kaggle, which was crucial for this work. Additionally, I appreciate the guidance and support from my professors throughout the project.
+- Data Source: The project relies on simulated data from Kaggle, which may not fully represent real-world clinical scenarios.
+- Model Generalizability: The current models may not generalize well across different patient populations or healthcare settings without further validation.
+- Performance: While the models show promising results, they require more extensive testing with diverse datasets to ensure robustness.
+
