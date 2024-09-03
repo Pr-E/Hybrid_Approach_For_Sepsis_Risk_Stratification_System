@@ -72,8 +72,21 @@ To use this project, follow the steps below:
 
 2. **Run the Jupyter Notebook:**
 
-   Open the provided Jupyter notebook (sepsis_risk_stratification.ipynb) to explore the data preprocessing, feature engineering, model training, and evaluation steps.
+   Open the provided Jupyter notebook (SEPSIS_RISK_STRATIFICATION_SYSTEM.ipynb) to explore the data preprocessing, feature engineering, model training, and evaluation steps.
 
 3. **Test the Model:**
 
-   You can test the model on new patient data by following the steps outlined in the notebook. Simply replace the example data with your dataset and run the cells to see the model's predictions.
+   You can test the model on new patient data by following the steps outlined in the notebook. Simply replace the sample data with your dataset and run the cells to see the model's predictions.
+   #### NOTE: The trained Random Forest model was used to test the new patients entry
+
+## Results
+
+The models demonstrated high accuracy and reliability in stratifying sepsis risk levels, as indicated by the evaluation metrics. The Decision Curve Analysis (DCA) highlighted the superior performance of the LSTM-XGBoost model over the LSTM-RF, particularly at higher threshold probabilities, suggesting its broader applicability and robustness in clinical settings.
+
+## Contributing
+
+Contributions are welcome! If you have any ideas or suggestions to improve this project, feel free to fork the repository and submit a pull request.
+
+## Acknowledgements
+
+This project was inspired by the need for improved sepsis risk stratification in clinical settings, aiming to provide timely and personalised care for patients. A big thank you to the open-source community, especially for the dataset provided on Kaggle, which was crucial for this work. Additionally, I appreciate the guidance and support from my professors throughout the project.
