@@ -83,7 +83,7 @@ To use this project, follow the steps below:
 
 The models demonstrated high accuracy and reliability in stratifying sepsis risk levels, as indicated by the evaluation metrics. The Decision Curve Analysis (DCA) highlighted the superior performance of the LSTM-XGBoost model over the LSTM-RF, particularly at higher threshold probabilities, suggesting its broader applicability and robustness in clinical settings.
 
-## Contributing
+## Contribution
 
 Contributions are welcome! If you have any ideas or suggestions to improve this project, feel free to fork the repository and submit a pull request.
 
